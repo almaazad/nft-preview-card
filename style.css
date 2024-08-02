@@ -1,0 +1,113 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #0d1a2d !important;
+}
+
+.pexplain {
+    color: rgba(237, 240, 241, 0.555);
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.pday {
+    color: rgba(237, 240, 241, 0.555);
+    font-weight: 500;
+}
+
+.pequi {
+    color: aliceblue;
+    font-weight: 600;
+    font-size: larger;
+}
+
+p.pequi:hover {
+    color: aqua;
+
+}
+
+.pblue {
+    color: aqua;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.dropimg {
+    background-color: rgba(0, 255, 255, 0.548);
+    z-index: 1;
+    height: 0%;
+    border-radius: 10px;
+    margin-top: 20px;
+    transition: all .8s;
+    overflow: hidden;
+}
+.view-img{
+    z-index: 1;
+    transition: all .8s;
+    top: 50% !important;
+    right: 50% !important;
+}
+
+.equiimg {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.dropcover:hover .dropimg{
+    height: calc(100% - 20px)
+}
+
+.view-img{
+    display: flex;
+    align-items: center;
+
+}
+.bg-secound {
+    background-color: #212d41;
+    border-radius: 15px;
+}
+
+.bg3 {
+    background-color: #a9b2c0;
+}
+
+.avatarimg {
+    width: 30px;
+    height: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: aliceblue;
+    border-radius: 30px;
+}
+
+.borr {
+    border-bottom: #7e8081be;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.liink {
+    color: aliceblue;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+a.liink:hover {
+    color: aqua;
+}
+
+.shad1 {
+    box-shadow: #0c1729 0 0 0 20px, #0c192c 0 0 0 50px;
+
+}
